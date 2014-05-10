@@ -1,0 +1,16 @@
+{
+  "name": "events-async",
+  "description": "async emit for NodeJS",
+  "version": "0.1.0-beta",
+  "author": "Mihai Potra <mike@mpotra.com>",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": "git://github.com/mpotra/events-async",
+  "scripts": {
+      "prepublish": "npm prune"
+    },
+  "engines": {
+      "node": ">= 0.10.0"
+    },
+  "license": "MIT"
+}
