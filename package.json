@@ -5,12 +5,30 @@
   "author": "Mihai Potra <mike@mpotra.com>",
   "dependencies": {},
   "devDependencies": {},
-  "repository": "git://github.com/mpotra/events-async",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mpotra/events-async"
+  },
   "scripts": {
-      "prepublish": "npm prune"
-    },
+    "prepublish": "npm prune"
+  },
   "engines": {
-      "node": ">= 0.10.0"
-    },
-  "license": "MIT"
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpotra/events-async/issues"
+  },
+  "homepage": "https://github.com/mpotra/events-async",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "async",
+    "emit",
+    "emitter",
+    "event",
+    "events"
+  ]
 }
