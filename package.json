@@ -9,9 +9,6 @@
     "type": "git",
     "url": "git://github.com/mpotra/events-async"
   },
-  "scripts": {
-    "prepublish": "npm prune"
-  },
   "engines": {
     "node": ">= 0.10.0"
   },
